@@ -2,12 +2,14 @@
 addIngredient("pork_roll",{
     color:"#f27373ff", 
     type:"meat",
+    hidden:false,
     shape:"puddle",
     keywords: "meat, pork, ham"
 });
 
 addIngredient("ramen",{
     color:"#f0f07dff",
+    hidden:false,
     type:"noodle",
     shape:"noodles",
     reactions:{
@@ -31,6 +33,7 @@ addIngredient("soft_ramen",{
 
 addIngredient("candy_cane", {
     color:"#ff0000ff",
+    hidden:false,
     innerColor:"#ffffffff",
     shape:"cane_striped",
     keywords: "candy, sweet, cane"
@@ -38,6 +41,7 @@ addIngredient("candy_cane", {
 
 addIngredient("cocoa_powder",{
     color:"#836333ff",
+    hidden:false,
     shape:"dots_some_flat",
     reactions: {
         water: {
@@ -62,20 +66,23 @@ addIngredient("jello",{
     keywords: "jelly, jello",
     broken:"jello_chunks",
     meltPoint:"80",
-    meltInto:"jello_liquid"
+    meltInto:"jello_liquid",
+    hidden:false
 });
 
 addIngredient("honeycomb",{
     color:"#fcb035ff",
     innercolor:"#e69f2eff",
     shape:"honeycomb",
-    keywords: "honey, bee"
+    keywords: "honey, bee",
+    hidden:false
 });
 
 addIngredient("tea_bag",{
     color:"#915f0d",
     shape:"cylinder_flat",
     keywords:"tea, bag",
+    hidden:false,
     broken:"tea_leaf"
 });
 
@@ -84,7 +91,8 @@ addIngredient("jello_chunks",{
     shape:"dots_some_flat",
     keywords:"jello, jelly",
     meltPoint:"80",
-    meltInto:"jello_liquid"
+    meltInto:"jello_liquid",
+    hidden:true
 });
 
 addIngredient("jello_liquid",{
@@ -110,6 +118,7 @@ addIngredient("ready_jello_liquid",{
 
 addIngredient("jello_powder",{
     color:"#fb6b6bff",
+    hidden:false,
     shape:"dots_some",
     keywords:"jello, jelly",
     reactions:{
@@ -123,7 +132,8 @@ addIngredient("doorito",{
     color:"#f66707ff",
     shape:"triangle_round",
     keywords:"dorito, chip, junk food",
-    broken:"doorito_dust"
+    broken:"doorito_dust",
+    hidden:false
 });
 
 addIngredient("doorito_dust",{
